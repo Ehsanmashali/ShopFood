@@ -1,10 +1,10 @@
 import Attributes from "../modules/Attributes";
 import Banner from "../modules/Banner";
-// import Companies from "../modules/Companies";
+import Companies from "../modules/Companies";
 import Definition from "../modules/Definition";
-// import Instruction from "../modules/Instruction";
-// import Guide from "../modules/Guide";
-// import Restrictions from "../modules/Restrictions";
+import Instruction from "../modules/Instruction";
+import Guide from "../modules/Guide";
+import Restrictions from "../modules/Restrictions";
 import styles from "./HomePage.module.css";
 
 const HomePage = () => {
@@ -13,10 +13,10 @@ const HomePage = () => {
       <Banner />
       <Attributes />
       <Definition />
-      {/* <Companies />
+      <Companies />
       <Instruction />
       <Guide />
-      <Restrictions /> */}
+      <Restrictions />
     </div>
   );
 };
